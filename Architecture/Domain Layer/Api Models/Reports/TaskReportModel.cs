@@ -27,13 +27,13 @@ namespace Api.Architecture.DomainLayer.ApiModels.Reports
 
         public string BillingMethod { get; set; }
 
-        public float TaskUnits { get; set; }
+        public float? TaskUnits { get; set; }
 
         public string TaskUnitOfMeasure { get; set; }
 
-        public float TaskUnitCost { get; set; }
+        public float? TaskUnitCost { get; set; }
 
-        public float TaskCost { get; set; }
+        public float? TaskCost { get; set; }
 
         [NotMapped]
         public string Equipment { get; set; }
@@ -64,13 +64,13 @@ namespace Api.Architecture.DomainLayer.ApiModels.Reports
 
         public string ContractedCost { get; set; }
 
-        public float MobilizationCost { get; set; }
+        public float? MobilizationCost { get; set; }
 
         public string MaterialsCost { get; set; }
 
-        public float TotalCost { get; set; }
+        public float? TotalCost { get; set; }
 
-        public float InvoicedTaskUnits { get; set; }
+        public float? InvoicedTaskUnits { get; set; }
 
         [NotMapped]
         public string InvoicedEquipmentUnits { get; set; }
@@ -78,7 +78,7 @@ namespace Api.Architecture.DomainLayer.ApiModels.Reports
         [NotMapped]
         public string InvoicedOperatorUnits { get; set; }
 
-        public float InvoicedTaskAmount { get; set; }
+        public float? InvoicedTaskAmount { get; set; }
 
         [NotMapped]
         public string InvoicedEquipmentAmount { get; set; }
@@ -86,14 +86,14 @@ namespace Api.Architecture.DomainLayer.ApiModels.Reports
         [NotMapped]
         public string InvoicedOperatorAmount { get; set; }
 
-        public float InvoicedContractedAmount { get; set; }
+        public float? InvoicedContractedAmount { get; set; }
 
-        public float InvoicedMobilizationAmount { get; set; }
+        public float? InvoicedMobilizationAmount { get; set; }
 
-        public float InvoicedMaterialsAmount { get; set; }
+        public float? InvoicedMaterialsAmount { get; set; }
 
-        public float InvoicedAdjustmentAmount { get; set; }
+        public float? InvoicedAdjustmentAmount { get; set; }
 
-        public float InvoicedTotalAmount { get; set; }
+        public float? InvoicedTotalAmount { get; set; }
     }
 }

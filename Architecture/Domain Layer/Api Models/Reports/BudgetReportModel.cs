@@ -24,14 +24,14 @@
 
         public string FundingSourceCode { get; set; }
 
-        public float AmountAllocated { get; set; }
+        public float? AmountAllocated { get; set; }
 
-        public float AmountSpent { get; set; }
+        public float? AmountSpent { get; set; }
 
-        public float ProjectFYFundingSourceAmountApproved { get; set; }
+        public float? ProjectFYFundingSourceAmountApproved { get; set; }
 
-        public float ProjectFYFundingSourceAmountEncumbered { get; set; }
+        public float? ProjectFYFundingSourceAmountEncumbered { get; set; }
 
-        public float ProjectFYFundingSourceAmountRemaining { get; set; }
+        public float? ProjectFYFundingSourceAmountRemaining { get; set; }
     }
 }

@@ -40,14 +40,14 @@ namespace Api.Architecture.DomainLayer.ApiModels.Reports
 
         public int TaskCount { get; set; }
 
-        public float TaskCostSubtotal { get; set; }
+        public float? TaskCostSubtotal { get; set; }
 
-        public float WorkEffortTotal { get; set; }
+        public float? WorkEffortTotal { get; set; }
 
-        public int InvoiceCount { get; set; }
+        public float? InvoiceCount { get; set; }
 
-        public float TotalInvoiceAmount { get; set; }
+        public float? TotalInvoiceAmount { get; set; }
 
-        public float ApprovedAmount { get; set; }
+        public float? ApprovedAmount { get; set; }
     }
 }

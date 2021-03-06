@@ -12,6 +12,6 @@ namespace Api.Architecture.DomainLayer.ApiModels.Reports
 
         public IList<string> SiteOwner { get; set; }
 
-        public float Acres { get; set; }
+        public float? Acres { get; set; }
     }
 }

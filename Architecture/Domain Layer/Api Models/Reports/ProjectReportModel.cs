@@ -35,6 +35,6 @@ namespace Api.Architecture.DomainLayer.ApiModels.Reports
 
         public string Description { get; set; }
 
-        public float Acres { get; set; }
+        public float? Acres { get; set; }
     }
 }
