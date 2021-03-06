@@ -1,0 +1,35 @@
+﻿INSERT INTO [api].[Terratrak.ProjectReport] (
+        [ProjectId]                            
+    ,   [SiteId]                               
+    ,   [Name]                                
+    ,   [TenantProjectIdentifier]
+    ,   [TenantSiteIdentifier]                 
+    ,   [ProgramLead]                         
+    ,   [PeerReviewer]                         
+    ,   [PrimaryOrganization]                  
+    ,   [PrimaryOrganizationContact]           
+    ,   [ProjectStatus]                        
+    ,   [ProjectType]                          
+    ,   [StartDate]                            
+    ,   [EndDate]                              
+    ,   [Description]                         
+    ,   [Acres]
+    ,   [OtherContacts]                            
+) VALUES (
+        @ProjectId                            
+    ,   @SiteId                               
+    ,   @Name                               
+    ,   @TenantProjectIdentifier              
+    ,   @TenantSiteIdentifier                 
+    ,   @ProgramLead                         
+    ,   @PeerReviewer                         
+    ,   @PrimaryOrganization                 
+    ,   @PrimaryOrganizationContact          
+    ,   @ProjectStatus                     
+    ,   @ProjectType                         
+    ,   @StartDate                         
+    ,   @EndDate                            
+    ,   @Description                         
+    ,   @Acres
+    ,   @OtherContacts
+)

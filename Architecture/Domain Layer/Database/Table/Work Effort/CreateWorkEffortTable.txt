@@ -1,0 +1,25 @@
+﻿CREATE TABLE [api].[Terratrak.WorkEffortReport] (
+        [WorkEffortId]                                  INT
+    ,   [ProjectId]                                     INT
+    ,   [SiteId]                                        INT
+    ,   [TenantProjectIdentifier]                       NVARCHAR(MAX)
+    ,   [Name]                                          NVARCHAR(MAX)
+    ,   [Code]                                          NVARCHAR(MAX)
+    ,   [WorkEffortLead]                                NVARCHAR(MAX)
+    ,   [ContractorContact]                             NVARCHAR(MAX)
+    ,   [CwsContractNumber]                             NVARCHAR(MAX)
+    ,   [PurchaseOrderNumber]                           NVARCHAR(MAX)
+    ,   [WorkEffortType]                                NVARCHAR(MAX)
+    ,   [WorkEffortStatus]                              NVARCHAR(MAX)
+    ,   [StartDate]                                     DATETIME
+    ,   [EndDate]                                       DATETIME
+    ,   [Agreement]                                     NVARCHAR(MAX)
+    ,   [ProjectName]                                   NVARCHAR(MAX)
+    ,   [RateType]                                      NVARCHAR(MAX)
+    ,   [TaskCount]                                     INT
+    ,   [TaskCostSubtotal]                              DECIMAL(10, 2)
+    ,   [WorkEffortTotal]                               DECIMAL(10, 2)
+    ,   [InvoiceCount]                                  INT
+    ,   [TotalInvoiceAmount]                            DECIMAL(10, 2)
+    ,   [ApprovedAmount]                                DECIMAL(10, 2)
+)

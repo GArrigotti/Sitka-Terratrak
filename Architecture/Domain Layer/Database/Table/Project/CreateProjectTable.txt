@@ -1,0 +1,18 @@
+﻿CREATE TABLE [api].[Terratrak.ProjectReport] (
+        [ProjectId]                             INT
+    ,   [SiteId]                                INT
+    ,   [Name]                                  NVARCHAR(MAX)
+    ,   [TenantProjectIdentifier]               NVARCHAR(MAX)
+    ,   [TenantSiteIdentifier]                  NVARCHAR(MAX)
+    ,   [ProgramLead]                           NVARCHAR(MAX)
+    ,   [PeerReviewer]                          NVARCHAR(MAX)
+    ,   [PrimaryOrganization]                   NVARCHAR(MAX)
+    ,   [PrimaryOrganizationContact]            NVARCHAR(MAX)
+    ,   [ProjectStatus]                         NVARCHAR(MAX)
+    ,   [ProjectType]                           NVARCHAR(MAX)
+    ,   [StartDate]                             DATETIME
+    ,   [EndDate]                               DATETIME
+    ,   [Description]                           NVARCHAR(MAX)
+    ,   [Acres]                                 DECIMAL(10, 2)
+    ,   [OtherContacts]                         NVARCHAR(MAX)
+)

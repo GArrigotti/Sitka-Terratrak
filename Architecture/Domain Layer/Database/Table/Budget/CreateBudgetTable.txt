@@ -1,0 +1,18 @@
+﻿CREATE TABLE [api].[Terratrak.BudgetReport] (
+        [SiteId]                                    INT
+    ,   [ProjectId]                                 INT
+    ,   [TenantSiteIdentifier]                      NVARCHAR(MAX)
+    ,   [SiteName]                                  NVARCHAR(MAX)
+    ,   [TenantProjectIdentifier]                   NVARCHAR(MAX)
+    ,   [ProjectName]                               NVARCHAR(MAX)
+    ,   [FiscalYearName]                            NVARCHAR(MAX)
+    ,   [SpendingTypeName]                          NVARCHAR(MAX)
+    ,   [FundingSourceTypeName]                     NVARCHAR(MAX)
+    ,   [FundingSourceName]                         NVARCHAR(MAX)
+    ,   [FundingSourceCode]                         NVARCHAR(MAX)
+    ,   [AmountAllocated]                           DECIMAL(10, 2)
+    ,   [AmountSpent]                               DECIMAL(10, 2)
+    ,   [ProjectFYFundingSourceAmountApproved]      DECIMAL(10, 2)
+    ,   [ProjectFYFundingSourceAmountEncumbered]    DECIMAL(10, 2)
+    ,   [ProjectFYFundingSourceAmountRemaining]     DECIMAL(10, 2)
+)

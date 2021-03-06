@@ -1,0 +1,53 @@
+﻿INSERT INTO [api].[Terratrak.TaskReport] (
+        [TaskId]                                    
+    ,   [WorkEffortId]                              
+    ,   [ProjectId]                                 
+    ,   [SiteId]                                    
+    ,   [Name]                                      
+    ,   [TaskType]                                  
+    ,   [TaskStatus]                                
+    ,   [IsComplete]                                
+    ,   [StartDate]                                 
+    ,   [EndDate]                                   
+    ,   [BillingMethod]                             
+    ,   [TaskUnits]                                 
+    ,   [TaskUnitMeasure]                           
+    ,   [TaskUnitCost]                              
+    ,   [TaskCost]                                  
+    ,   [ContractedCost]                            
+    ,   [MobilizationCost]                          
+    ,   [MaterialsCost]                            
+    ,   [TotalCost]                                 
+    ,   [InvoicedTaskAmount]                        
+    ,   [InvoicedContractedAmount]                  
+    ,   [InvoicedMobilizationAmount]                
+    ,   [InvoicedMaterialsAmount]                   
+    ,   [InvoicedAdjustmentAmount]                  
+    ,   [InvoicedTotalAmount]
+) VALUES (
+        @TaskId                                    
+    ,   @WorkEffortId                              
+    ,   @ProjectId                                 
+    ,   @SiteId                                    
+    ,   @Name                                      
+    ,   @TaskType                                  
+    ,   @TaskStatus                                
+    ,   @IsComplete                                
+    ,   @StartDate                                 
+    ,   @EndDate                                   
+    ,   @BillingMethod                             
+    ,   @TaskUnits                                 
+    ,   @TaskUnitMeasure                           
+    ,   @TaskUnitCost                              
+    ,   @TaskCost                                  
+    ,   @ContractedCost                            
+    ,   @MobilizationCost                          
+    ,   @MaterialsCost                             
+    ,   @TotalCost                                 
+    ,   @InvoicedTaskAmount                        
+    ,   @InvoicedContractedAmount                  
+    ,   @InvoicedMobilizationAmount                
+    ,   @InvoicedMaterialsAmount                   
+    ,   @InvoicedAdjustmentAmount                  
+    ,   @InvoicedTotalAmount
+)               

@@ -1,0 +1,13 @@
+﻿INSERT INTO [api].[Terratrak.SiteReport] (
+        [SiteId]                            
+    ,   [TenantSiteIdentifier]             
+    ,   [Name]                              
+    ,   [Acres]
+    ,   [SiteOwners]                            
+) VALUES (
+        @SiteId                          
+    ,   @TenantSiteIdentifier             
+    ,   @Name                              
+    ,   @Acres
+    ,   @SiteOwners
+)

@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Architecture\" />
+    <Folder Include="Architecture\Data Layer\" />
+    <Folder Include="Architecture\Domain Layer\" />
+    <Folder Include="Architecture\Console\" />
+    <Folder Include="Architecture\Service Layer\" />
+    <Folder Include="Architecture\Domain Layer\Database\" />
+    <Folder Include="Architecture\Domain Layer\Database\Queries\" />
+    <Folder Include="Architecture\Console\Extensions\" />
+    <Folder Include="Architecture\Service Layer\Facades\" />
+    <Folder Include="Architecture\Domain Layer\Api Models\" />
+    <Folder Include="Architecture\Domain Layer\Api Models\Reports\" />
+    <Folder Include="Architecture\Data Layer\Contexts\" />
+    <Folder Include="Architecture\Domain Layer\Database\Table\" />
+    <Folder Include="Architecture\Domain Layer\Database\Table\Budget\" />
+    <Folder Include="Architecture\Domain Layer\Database\Table\Site\" />
+    <Folder Include="Architecture\Domain Layer\Database\Table\Project\" />
+    <Folder Include="Architecture\Domain Layer\Database\Table\Task\" />
+    <Folder Include="Architecture\Domain Layer\Database\Table\Work Effort\" />
+    <Folder Include="Architecture\Domain Layer\Database\Queries\Budget\" />
+    <Folder Include="Architecture\Domain Layer\Database\Queries\Project\" />
+    <Folder Include="Architecture\Domain Layer\Database\Queries\Site\" />
+    <Folder Include="Architecture\Domain Layer\Database\Queries\Task\" />
+    <Folder Include="Architecture\Domain Layer\Database\Queries\Work Effort\" />
+    <Folder Include="Architecture\Domain Layer\Database\Schema\" />
+    <Folder Include="Architecture\Service Layer\Utilities\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
+    <PackageReference Include="Serilog" Version="2.10.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="4.1.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+    <PackageReference Include="Dapper" Version="2.0.78" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="5.0.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="3.4.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="application-settings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

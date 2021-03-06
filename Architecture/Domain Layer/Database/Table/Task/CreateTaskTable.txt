@@ -1,0 +1,27 @@
+﻿CREATE TABLE [api].[Terratrak.TaskReport] (
+        [TaskId]                                    INT
+    ,   [WorkEffortId]                              INT
+    ,   [ProjectId]                                 INT
+    ,   [SiteId]                                    INT
+    ,   [Name]                                      NVARCHAR(MAX)
+    ,   [TaskType]                                  NVARCHAR(MAX)
+    ,   [TaskStatus]                                NVARCHAR(MAX)
+    ,   [IsComplete]                                BIT
+    ,   [StartDate]                                 DATETIME
+    ,   [EndDate]                                   DATETIME
+    ,   [BillingMethod]                             NVARCHAR(MAX)
+    ,   [TaskUnits]                                 DECIMAL(10, 3)
+    ,   [TaskUnitMeasure]                           NVARCHAR(MAX)
+    ,   [TaskUnitCost]                              DECIMAL(10, 3)
+    ,   [TaskCost]                                  DECIMAL(10, 3)
+    ,   [ContractedCost]                            NVARCHAR(MAX)
+    ,   [MobilizationCost]                          DECIMAL(10, 3)
+    ,   [MaterialsCost]                             NVARCHAR(MAX)
+    ,   [TotalCost]                                 DECIMAL(10, 3)
+    ,   [InvoicedTaskAmount]                        DECIMAL(10, 3)
+    ,   [InvoicedContractedAmount]                  DECIMAL(10, 3)
+    ,   [InvoicedMobilizationAmount]                DECIMAL(10, 3)
+    ,   [InvoicedMaterialsAmount]                   DECIMAL(10, 3)
+    ,   [InvoicedAdjustmentAmount]                  DECIMAL(10, 3)
+    ,   [InvoicedTotalAmount]                       DECIMAL(10, 3)
+)

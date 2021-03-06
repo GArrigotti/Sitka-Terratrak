@@ -1,0 +1,49 @@
+﻿INSERT INTO [api].[Terratrak.WorkEffortReport] (
+        [WorkEffortId]                                  
+    ,   [ProjectId]                                     
+    ,   [SiteId]                                        
+    ,   [TenantProjectIdentifier]                       
+    ,   [Name]                                          
+    ,   [Code]                                          
+    ,   [WorkEffortLead]                                
+    ,   [ContractorContact]                             
+    ,   [CwsContractNumber]                             
+    ,   [PurchaseOrderNumber]                           
+    ,   [WorkEffortType]                                
+    ,   [WorkEffortStatus]                              
+    ,   [StartDate]                                     
+    ,   [EndDate]                                       
+    ,   [Agreement]                                     
+    ,   [ProjectName]                                   
+    ,   [RateType]                                      
+    ,   [TaskCount]                                     
+    ,   [TaskCostSubtotal]                              
+    ,   [WorkEffortTotal]                               
+    ,   [InvoiceCount]                                  
+    ,   [TotalInvoiceAmount]                            
+    ,   [ApprovedAmount]                                
+) VALUES (
+        @WorkEffortId                                  
+    ,   @ProjectId                                     
+    ,   @SiteId                                        
+    ,   @TenantProjectIdentifier                       
+    ,   @Name                                          
+    ,   @Code                                          
+    ,   @WorkEffortLead                                
+    ,   @ContractorContact                             
+    ,   @CwsContractNumber                             
+    ,   @PurchaseOrderNumber                           
+    ,   @WorkEffortType                                
+    ,   @WorkEffortStatus                              
+    ,   @StartDate                                     
+    ,   @EndDate                                       
+    ,   @Agreement                                     
+    ,   @ProjectName                                   
+    ,   @RateType                                      
+    ,   @TaskCount                                     
+    ,   @TaskCostSubtotal                              
+    ,   @WorkEffortTotal                               
+    ,   @InvoiceCount                                  
+    ,   @TotalInvoiceAmount                            
+    ,   @ApprovedAmount           
+)

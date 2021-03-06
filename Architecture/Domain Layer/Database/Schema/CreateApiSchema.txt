@@ -1,0 +1,11 @@
+﻿CREATE SCHEMA api;
+
+GRANT SELECT ON SCHEMA::api TO (
+        [Terratrak.BudgetReport]
+    ,   [Terratrak.SiteReport]
+    ,   [Terratrak.ProjectReport]
+    ,   [Terratrak.[TaskReport]
+    ,   [Terratrak.[WorkEffortReport]
+);
+
+GO

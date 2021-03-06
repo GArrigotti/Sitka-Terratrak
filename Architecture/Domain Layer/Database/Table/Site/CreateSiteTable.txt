@@ -1,0 +1,7 @@
+﻿CREATE TABLE [api].[Terratrak.SiteReport] (
+        [SiteId]                            INT
+    ,   [TenantSiteIdentifier]              NVARCHAR(MAX)
+    ,   [Name]                              NVARCHAR(MAX)
+    ,   [Acres]                             DECIMAL(10, 2)
+    ,   [SiteOwners]                        NVARCHAR(MAX)
+)
